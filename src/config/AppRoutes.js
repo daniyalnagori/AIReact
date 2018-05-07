@@ -7,11 +7,12 @@ import {
 import {
   App,
   Signup,
-  Home
+  Home,
+  CreatePredictors
 } from './../components/index';
 
 import {
-  Signin
+  Signin,
 } from './../container/index';
 
 const ParentApp = () => (
@@ -20,6 +21,7 @@ const ParentApp = () => (
 
     {/* App routing goes here!! */}
     <Route exact path="/signup" component={Signup} />
+    <Route exact path="/createPredictors" component={CreatePredictors} /> 
     <Route exact path="/login" component={Signin} /> 
     <Route exact path="/dashboard" component={Home} />
 

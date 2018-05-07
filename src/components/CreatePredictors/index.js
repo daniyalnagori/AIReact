@@ -45,20 +45,13 @@ class CreatePredictors extends Component {
                                     <div style={{ background: "white" }}>
 
                                         <p className="createA">CREATE A PREDICTOR</p>
-                                        {/* <p className="predictor">PREDICTOR</p> */}
-
-
                                         <br />
                                         <Row className="show-grid">
                                             <Col xs={12} md={12} style={{ background: "white" }}>
-                                                {/* <code> */}
                                                 <label style={{ width: "100%", color: "#878787" }}>
                                                     Name
                                                 <input type="text" className="input" style={{ outline: "none" }} placeholder="Lysine4HourLive" />
                                                 </label>
-
-                                                {/* <p style={{ width: "100%", color: "#878787", letterSpacing: "1px" }}>NAME<br /> <input type="text" className="input" value="Lysine4HourLive" /></p> */}
-                                                {/* </code> */}
                                             </Col>
                                         </Row>
                                         <br />
@@ -66,12 +59,6 @@ class CreatePredictors extends Component {
 
                                         <Row className="show-grid">
                                             <Col xs={12} md={12} style={{ background: "white" }}>
-                                                {/* <p style={{  width: "100%", margin: "0px auto", color: "#878787", letterSpacing: "1px"}}>STATUS:<br /> <div id="donate">
-                                                    <label className="blue"><input type="radio" name="toggle" /><span>$20</span></label>
-                                                    <label className="green"><input type="radio" name="toggle" /><span>$50</span></label>
-                                                </div>
-                                                </p> */}
-                                                {/* <p style={{ width: "100%", color: "#878787", letterSpacing: "1px" }}>Status:<br /> <input type="text" className="input" value="Production" /></p> */}
                                                 <label style={{ width: "100%", color: "#878787" }}>
                                                     Status
                                                 <input type="text" className="input" style={{ outline: "none" }} placeholder="Production" />
@@ -82,9 +69,6 @@ class CreatePredictors extends Component {
 
                                         <Row className="show-grid">
                                             <Col xs={12} md={12} style={{ background: "white" }}>
-                                                {/* <code>
-                                                <p style={{ width: "100%", color: "#878787", letterSpacing: "1px" }}>MODEL TYPE:<br /> <input type="text" className="input" value="Future Values" /></p>
-                                            </code> */}
                                                 <label style={{ width: "100%", color: "#878787" }}>
                                                     Model Type
                                                 <input type="text" className="input" style={{ outline: "none" }} placeholder="Future Value" />
@@ -114,44 +98,33 @@ class CreatePredictors extends Component {
                                                 <input type="text" className="input" style={{ outline: "none" }} placeholder="Fermentation" />
                                                 </label>
 
-                                                {/* </code> */}
                                             </Col>
                                         </Row>
                                         <br />
                                         <Row className="show-grid">
                                             <Col xs={12} md={12} className="cen" style={{ background: "white" }}>
-                                                {/* <code> */}
-                                                {/* <p style={{ background: "white", display: "table", width: "75%", margin: "0px auto", color: "#878787", letterSpacing: "1px", fontWeight: "bold" }}>HBASE TABLE NAME:<br /> <input type="text" className="input" value="Fermentation-lab" /></p> */}
                                                 <label style={{ width: "75%", color: "#878787" }}>
                                                     HBASE TABLE NAME
                                                 <input type="text" className="input" style={{ outline: "none" }} placeholder="Fermentation-lab" />
                                                 </label>
-                                                {/* </code> */}
                                             </Col>
                                         </Row>
                                         <br />
                                         <Row className="show-grid">
                                             <Col xs={12} md={12} className="cen" style={{ background: "white" }}>
-                                                {/* <code> */}
-                                                {/* <p style={{ background: "white", display: "table", width: "75%", margin: "0px auto", color: "#878787", letterSpacing: "1px", fontWeight: "bold" }}>DATE FORMAT:<br /> <input type="text" className="input" value="%m/%d/%Y %I:%M:%S %p" /></p> */}
-
                                                 <label style={{ width: "75%", color: "#878787" }}>
                                                     DATE FORMAT
                                                 <input type="text" className="input" style={{ outline: "none" }} placeholder="%m/%d/%Y %I:%M:%S %p" />
                                                 </label>
-                                                {/* </code> */}
                                             </Col>
                                         </Row>
                                         <br />
                                         <Row className="show-grid">
                                             <Col xs={12} md={12} className="cen" style={{ background: "white" }}>
-                                                {/* <code> */}
-                                                {/* <p style={{ background: "white", display: "table", width: "75%", margin: "0px auto", color: "#878787", letterSpacing: "1px", fontWeight: "bold" }}>HBASE TEST TABLE NAME:<br /> <input type="text" className="input" value="%m/%d/%Y %I:%M:%S %p" /></p> */}
                                                 <label style={{ width: "75%", color: "#878787" }}>
                                                     HBASE TEST TABLE NAME
                                                 <input type="text" className="input" style={{ outline: "none" }} placeholder="%m/%d/%Y %I:%M:%S %p" />
                                                 </label>
-                                                {/* </code> */}
                                             </Col>
                                         </Row>
 
@@ -165,16 +138,13 @@ class CreatePredictors extends Component {
                                 <br />
 
                                 <Row className="show-grid">
-                                    <Col xs={10} md={10} style={{ background: "white" }}>
-                                        <code>
+                                    <Col xs={10} md={10}>
                                             {this.state.activeStep === 1 ?
                                                 <p className="modelType2" onClick={() => this.back()}>MODEL TYPE</p> : null}
                                             {this.state.activeStep === 2 ?
                                                 <p className="modelType2" onClick={() => this.back()}>DATA SET</p> : null}
-                                        </code>
                                     </Col>
-                                    <Col xs={2} md={2} style={{ background: "white" }}>
-                                        <code>
+                                    <Col xs={2} md={2} >
                                             <div>
                                                 {this.state.activeStep === 0 ?
                                                     <p className="modelType" onClick={() => this.next()}>MODEL TYPE</p>
@@ -186,7 +156,6 @@ class CreatePredictors extends Component {
                                                     <p className="modelType" onClick={() => this.next()}>NEXT</p>
                                                     : null}
                                             </div>
-                                        </code>
                                     </Col>
                                 </Row>
                             </Grid>
@@ -196,62 +165,52 @@ class CreatePredictors extends Component {
                 <div style={{ width: "98%" }}>
                     <Row className="show-grid createPredictorRow">
                         <Col xs={2} md={2} className="bottomPredic">
-                            <code>
                                 <div className="groupBtn3">
                                     <div className="Main3">
                                         <span className="spann3">PREDICTOR</span>
                                         <span className="ques3 glyphicon glyphicon-chevron-down"></span>
                                     </div>
                                 </div>
-                            </code>
                         </Col>
                         <Col xs={2} md={2} className="bottomPredic">
-                            <code>
                                 <div className="groupBtn3">
                                     <div className="Main3">
                                         <span className="spann3">PREDICTOR</span>
                                         <span className="ques3 glyphicon glyphicon-chevron-down"></span>
                                     </div>
                                 </div>
-                            </code>
                         </Col>
                         <Col xs={2} md={2} className="bottomPredic">
-                            <code>
                                 <div className="groupBtn3">
                                     <div className="Main3">
                                         <span className="spann3">PREDICTOR</span>
                                         <span className="ques3 glyphicon glyphicon-chevron-down"></span>
                                     </div>
                                 </div>
-                            </code>
                         </Col>
                         <Col xs={2} md={2} className="bottomPredic">
-                            <code>
                                 <div className="groupBtn3">
                                     <div className="Main3">
                                         <span className="spann3">PREDICTOR</span>
                                         <span className="ques3 glyphicon glyphicon-chevron-down"></span>
                                     </div>
                                 </div>
-                            </code>
                         </Col>
                         <Col xs={2} md={2} className="bottomPredic">
-                            <code> <div className="groupBtn3">
+                                <div className="groupBtn3">
                                 <div className="Main3">
                                     <span className="spann3">PREDICTOR</span>
                                     <span className="ques3 glyphicon glyphicon-chevron-down"></span>
                                 </div>
-                            </div></code>
+                            </div>
                         </Col>
                         <Col xs={2} md={2} className="bottomPredic">
-                            <code>
                                 <div className="groupBtn3">
                                     <div className="Main3">
                                         <span className="spann3">PREDICTOR</span>
                                         <span className="ques3 glyphicon glyphicon-chevron-down"></span>
                                     </div>
                                 </div>
-                            </code>
                         </Col>
                     </Row>
                 </div>

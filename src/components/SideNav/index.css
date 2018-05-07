@@ -24,19 +24,20 @@
     box-shadow: pink 2 2 2 ;
 }
 
-.sideBar .col-md-3 {
-    margin-left: -30px;
+.sideBar .sideBarPanel{
+    padding: 0px;
+    /* margin-left: -30px; */
     position: fixed;
     z-index: 1;
 }
 
-.sideBar .col-md-9{
+.sideBar .datasetSetup{
     position: absolute;
     right: 0;
     margin-top: 50px;
 }
 
-.container{
+.sideBar .container{
     width: 100%;
     /* width: 100%; */
 }
@@ -110,7 +111,7 @@ margin-bottom: 17px
 .search-form-container{
     height: 100vh;   
     background-color:rgba(255,255,255,0.9);
-    margin-left: -21px
+    /* margin-left: -21px */
 }
 
 
@@ -193,9 +194,6 @@ margin-bottom: 17px
     padding: 0px;
 }
 
-.sideBar .sideBarPanel{
-    padding: 0px;
-}
 
 .searchPanel{
     padding: 0px;
