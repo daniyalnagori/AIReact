@@ -1,0 +1,208 @@
+.tutorial-logo{
+    height: 43px; 
+    margin-top: 35px;
+    margin-left: 20px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #f7f7f7;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sideBar{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: bottom; 
+    background-size: 120%;
+    box-shadow: pink 2 2 2 ;
+}
+
+.sideBar .col-md-3 {
+    margin-left: -30px;
+    position: fixed;
+    z-index: 1;
+}
+
+.sideBar .col-md-9{
+    position: absolute;
+    right: 0;
+    margin-top: 50px;
+}
+
+.container{
+    width: 100%;
+    /* width: 100%; */
+}
+
+.nav>li>a:hover{
+    background-color: transparent;
+}
+
+.sidebar-container{   
+    background: rgba(247,247,247,0.9);
+    height:  100vh;
+    width: 80px;
+}
+
+.NavItem{
+    background: transparent;
+    padding-right: 20px;
+    
+}
+
+.nav-pills>li{
+    width: 76px;
+    outline: none !important;
+}
+
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+    background: #fff;
+}
+
+ .nav-pills>li.active .tab-Image{
+    background: #cf25c5
+}
+.nav-pills>li.active, .nav-pills>li.active p
+{
+    border-left: 5px solid #cf25c5;
+    color: #4E008B;
+}
+
+
+.tab-Image{
+ background-color: #6c00a7;
+ width: 42px;
+ height: 42px;
+ border-radius: 10px;
+ margin-left: 0px;
+text-align :center;
+justify-content: center; 
+margin-top: 0px;
+margin-bottom: 17px
+
+}
+
+.tutorial-button{
+    height: 16px;     
+    margin-top: 11px
+}
+
+
+.icon-text{
+    font-Size: 10px;
+    margin-top: 15px;
+    color: #8f8f8f;
+    width: 80px;
+    margin-left: -20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.search-form-container{
+    height: 100vh;   
+    background-color:rgba(255,255,255,0.9);
+    margin-left: -21px
+}
+
+
+.FormControl-style{
+   height:40px;
+    background-color:#EDEDED; 
+    border:none;
+    outline:none;
+}
+
+
+.FormControl-style:hover{
+    height:40px;
+    background-color:#EDEDED; 
+    border:none;
+    outline:0;
+}
+
+.FormControl-style:focus{
+    height:40px;
+    background-color:#EDEDED; 
+    border:none;
+    outline:0;
+}
+
+.search-Icon{
+    background-color:#EDEDED;
+     border:none;
+}
+
+
+
+
+.PREDICTORS-text{
+    font-weight: bold;
+    margin-left: 10px;
+    /* margin-top: 50px; */
+    font-size: 1em;
+    color: #6c00a7;
+}
+
+
+.Glyphicon{
+    color: #6c00a7;
+    font-size: 12px;
+   margin-left: 30px;
+   margin-top: 15px;
+   cursor: pointer;
+}
+
+.Glyphicon:active{
+    color: #cf25c5;
+    font-size: 12px;
+   margin-left: 30px;
+   margin-top: 15px;
+   cursor: pointer;
+}
+
+
+.add-new-button{
+  border: none;
+  background-color: transparent;
+  color: #6c00a7;
+  margin-left: 10px
+}
+
+.add-button-span{
+    border: solid 1px #6c00a7;
+    border-radius: 100%;
+    padding-top: -1px;
+    padding-bottom: -1px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 24px;
+    margin-left: 10px;
+    color: #6c00a7;
+}
+
+.sideBar .sideBarIcons{
+    padding: 0px;
+}
+
+.sideBar .sideBarPanel{
+    padding: 0px;
+}
+
+.searchPanel{
+    padding: 0px;
+}
+
+.datasetSetup{
+    margin-top: 100px;
+    margin-left: 30px;
+    width:79%
+}
