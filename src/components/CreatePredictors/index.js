@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './index.css';
 import { Grid, Row, Col, Table, thead, tr, th, tbody, td } from 'react-bootstrap'
+import { ButtonToolbar, Button, MenuItem, DropdownButton } from 'react-bootstrap'
+
 import Stepper from 'react-stepper-horizontal'
 
 class CreatePredictors extends Component {
@@ -162,54 +164,126 @@ class CreatePredictors extends Component {
                 </div>
                 <div style={{ width: "98%" }}>
                     <Row className="show-grid createPredictorRow">
-                        <Col xs={6} md={2} className="bottomPredic">
-                            <div className="groupBtn3">
-                                <div className="Main3">
-                                    <span className="spann3">PREDICTOR</span>
-                                    <span className="ques3 glyphicon glyphicon-chevron-down"></span>
-                                </div>
-                            </div>
-                        </Col>
-                        <Col xs={6} md={2} className="bottomPredic">
-                            <div className="groupBtn3">
-                                <div className="Main3">
-                                    <span className="spann3">PREDICTOR</span>
-                                    <span className="ques3 glyphicon glyphicon-chevron-down"></span>
-                                </div>
-                            </div>
-                        </Col>
-                        <Col xs={6} md={2} className="bottomPredic">
-                            <div className="groupBtn3">
-                                <div className="Main3">
-                                    <span className="spann3">PREDICTOR</span>
-                                    <span className="ques3 glyphicon glyphicon-chevron-down"></span>
-                                </div>
-                            </div>
-                        </Col>
-                        <Col xs={6} md={2} className="bottomPredic">
-                            <div className="groupBtn3">
-                                <div className="Main3">
-                                    <span className="spann3">PREDICTOR</span>
-                                    <span className="ques3 glyphicon glyphicon-chevron-down"></span>
-                                </div>
-                            </div>
-                        </Col>
-                        <Col xs={6} md={2} className="bottomPredic">
-                            <div className="groupBtn3">
-                                <div className="Main3">
-                                    <span className="spann3">PREDICTOR</span>
-                                    <span className="ques3 glyphicon glyphicon-chevron-down"></span>
-                                </div>
-                            </div>
-                        </Col>
-                        <Col xs={6} md={2} className="bottomPredic">
-                            <div className="groupBtn3">
-                                <div className="Main3">
-                                    <span className="spann3">PREDICTOR</span>
-                                    <span className="ques3 glyphicon glyphicon-chevron-down"></span>
-                                </div>
-                            </div>
-                        </Col>
+                    <Col xs={6} md={2}>
+              <code>
+                <div className='Main3'>
+                  <ButtonToolbar>
+                    <DropdownButton className='spann5'
+                      title='PREDICTION FIELD'
+                      bsSize="small"
+                    >
+                      <MenuItem eventKey="1">Action</MenuItem>
+                      <MenuItem eventKey="2">Another action</MenuItem>
+                      <MenuItem eventKey="3" active>
+                        Active Item
+                  </MenuItem>
+                      <MenuItem divider />
+                      <MenuItem eventKey="4">Separated link</MenuItem>
+                    </DropdownButton>
+                  </ButtonToolbar>
+                </div>
+              </code>
+            </Col>
+                         <Col xs={6} md={2}>
+              <code>
+                <div className='Main3'>
+                  <ButtonToolbar>
+                    <DropdownButton className='spann5'
+                      title='PREDICTION FIELD'
+                      bsSize="small"
+                    >
+                      <MenuItem eventKey="1">Action</MenuItem>
+                      <MenuItem eventKey="2">Another action</MenuItem>
+                      <MenuItem eventKey="3" active>
+                        Active Item
+                  </MenuItem>
+                      <MenuItem divider />
+                      <MenuItem eventKey="4">Separated link</MenuItem>
+                    </DropdownButton>
+                  </ButtonToolbar>
+                </div>
+              </code>
+            </Col>
+                         <Col xs={6} md={2}>
+              <code>
+                <div className='Main3'>
+                  <ButtonToolbar>
+                    <DropdownButton className='spann5'
+                      title='PREDICTION FIELD'
+                      bsSize="small"
+                    >
+                      <MenuItem eventKey="1">Action</MenuItem>
+                      <MenuItem eventKey="2">Another action</MenuItem>
+                      <MenuItem eventKey="3" active>
+                        Active Item
+                  </MenuItem>
+                      <MenuItem divider />
+                      <MenuItem eventKey="4">Separated link</MenuItem>
+                    </DropdownButton>
+                  </ButtonToolbar>
+                </div>
+              </code>
+            </Col>
+                        <Col xs={6} md={2}>
+              <code>
+                <div className='Main3'>
+                  <ButtonToolbar>
+                    <DropdownButton className='spann5'
+                      title='PREDICTION FIELD'
+                      bsSize="small"
+                    >
+                      <MenuItem eventKey="1">Action</MenuItem>
+                      <MenuItem eventKey="2">Another action</MenuItem>
+                      <MenuItem eventKey="3" active>
+                        Active Item
+                  </MenuItem>
+                      <MenuItem divider />
+                      <MenuItem eventKey="4">Separated link</MenuItem>
+                    </DropdownButton>
+                  </ButtonToolbar>
+                </div>
+              </code>
+            </Col>
+                       <Col xs={6} md={2}>
+              <code>
+                <div className='Main3'>
+                  <ButtonToolbar>
+                    <DropdownButton className='spann5'
+                      title='PREDICTION FIELD'
+                      bsSize="small"
+                    >
+                      <MenuItem eventKey="1">Action</MenuItem>
+                      <MenuItem eventKey="2">Another action</MenuItem>
+                      <MenuItem eventKey="3" active>
+                        Active Item
+                  </MenuItem>
+                      <MenuItem divider />
+                      <MenuItem eventKey="4">Separated link</MenuItem>
+                    </DropdownButton>
+                  </ButtonToolbar>
+                </div>
+              </code>
+            </Col>
+                        <Col xs={6} md={2}>
+              <code>
+                <div className='Main3'>
+                  <ButtonToolbar>
+                    <DropdownButton className='spann5'
+                      title='PREDICTION FIELD'
+                      bsSize="small"
+                    >
+                      <MenuItem eventKey="1">Action</MenuItem>
+                      <MenuItem eventKey="2">Another action</MenuItem>
+                      <MenuItem eventKey="3" active>
+                        Active Item
+                  </MenuItem>
+                      <MenuItem divider />
+                      <MenuItem eventKey="4">Separated link</MenuItem>
+                    </DropdownButton>
+                  </ButtonToolbar>
+                </div>
+              </code>
+            </Col>
 
                         <Col xs={12} md={12}>
 

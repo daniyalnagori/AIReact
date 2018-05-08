@@ -137,11 +137,11 @@
   width: 125%;
   height: 54px;
 }
-
+/*
 .Main3{
    padding-top: 8%;
   background: white;
-}
+}*/
 
 
 .spann3{
@@ -177,3 +177,71 @@
     /*width: 50%;*/
     color: #c4bbb2;
     }
+
+
+
+    /*.createPredictorModal .createPredictorForm .spann3{
+    color: #c4bbb2;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: bold;
+    background: white;
+    border: none;
+    width: 190%;
+    padding-right: 30%;
+}*/
+
+/*.spann4{
+    color: #c4bbb2;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: bold;
+    background: white;
+    border: none;
+    width: 130%;
+    padding-right: 30%;
+}*/
+
+.spann5{
+    color: #c4bbb2;
+    background: white;
+    border: none;
+    width: 117%;
+    height: 9vh;
+}
+
+/*
+.spann6{
+    color: #c4bbb2;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: bold;
+    background: white;
+    border: none;
+    width: 115%;
+    padding-right: 30%;
+}
+
+
+.spann7{
+    color: #c4bbb2;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: bold;
+    background: white;
+    border: none;
+    width: 175%;
+    padding-right: 30%;
+}
+
+
+.spann8{
+    color: #c4bbb2;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: bold;
+    background: white;
+    border: none;
+    width: 115%;
+    padding-right: 30%;
+}*/
