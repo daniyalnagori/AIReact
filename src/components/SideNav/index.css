@@ -24,15 +24,23 @@
     box-shadow: pink 2 2 2 ;
 }
 
+.sideBar .logoText{
+    color: #4e008b;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 40px;
+    font-size: 10px
+}
+
 .sideBar .sideBarPanel{
     padding: 0px;
-    /* margin-left: -30px; */
     position: fixed;
     z-index: 1;
     background-image: url("../../assets/sideNavBg.png");
     background-size: 204%;
     background-position-y: 200%;
-    /* background-position-x: 49%; */
     background-repeat: no-repeat;
 }
 
@@ -44,7 +52,6 @@
 
 .sideBar .container{
     width: 100%;
-    /* width: 100%; */
 }
 
 .nav>li>a:hover{
@@ -76,24 +83,22 @@
  .nav-pills>li.active .tab-Image{
     background: #cf25c5
 }
-.nav-pills>li.active, .nav-pills>li.active p
-{
+.nav-pills>li.active, .nav-pills>li.active p{
     border-left: 5px solid #cf25c5;
     color: #4E008B;
 }
 
 
 .tab-Image{
- background-color: #6c00a7;
- width: 42px;
- height: 42px;
- border-radius: 10px;
- margin-left: 0px;
-text-align :center;
-justify-content: center; 
-margin-top: 0px;
-margin-bottom: 17px
-
+    background-color: #6c00a7;
+    width: 42px;
+    height: 42px;
+    border-radius: 10px;
+    margin-left: 0px;
+    text-align :center;
+    justify-content: center; 
+    margin-top: 0px;
+    margin-bottom: 17px
 }
 
 .tutorial-button{
@@ -116,7 +121,6 @@ margin-bottom: 17px
 .search-form-container{
     height: 100vh;   
     background-color:rgba(255,255,255,0.9);
-    /* margin-left: -21px */
 }
 
 
@@ -144,7 +148,7 @@ margin-bottom: 17px
 
 .search-Icon{
     background-color:#EDEDED;
-     border:none;
+    border:none;
 }
 
 
@@ -153,7 +157,6 @@ margin-bottom: 17px
 .PREDICTORS-text{
     font-weight: bold;
     margin-left: 10px;
-    /* margin-top: 50px; */
     font-size: 1em;
     color: #6c00a7;
 }
@@ -162,25 +165,25 @@ margin-bottom: 17px
 .Glyphicon{
     color: #6c00a7;
     font-size: 12px;
-   margin-left: 30px;
-   margin-top: 15px;
-   cursor: pointer;
+    margin-left: 30px;
+    margin-top: 15px;
+    cursor: pointer;
 }
 
 .Glyphicon:active{
     color: #cf25c5;
     font-size: 12px;
-   margin-left: 30px;
-   margin-top: 15px;
-   cursor: pointer;
+    margin-left: 30px;
+    margin-top: 15px;
+    cursor: pointer;
 }
 
 
 .add-new-button{
-  border: none;
-  background-color: transparent;
-  color: #6c00a7;
-  margin-left: 10px
+    border: none;
+    background-color: transparent;
+    color: #6c00a7;
+    margin-left: 10px
 }
 
 .add-button-span{

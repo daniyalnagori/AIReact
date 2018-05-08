@@ -12,8 +12,8 @@
     margin-top: -5px
 }
 .first-col{
-  background-color: #f7f7f7;
-  height: 100vh;
+    background-color: #f7f7f7;
+    height: 100vh;
 }
 .training-event-contant{
     width: 95%;
@@ -40,7 +40,7 @@
 }
 
 .Analysis-img{
-  height: 35px;
+    height: 35px;
 }
 
 .image-span{
@@ -70,7 +70,7 @@
     margin-left: 20px
 }
 #CORRELATION-Text{
-   margin-left: -44px
+    margin-left: -44px
 }
 
 
@@ -85,56 +85,40 @@
 #BOX{
     margin-left: 45px   
 }
-/* ****************ID*********************** */
-/* ****************ID*********************** */
-
-
-
-
-
-
-
 
 .Model-Analysis-heading{
     color: #cf25c5;
     margin-left: 10px
 }
 
-
-
 .table{
-   /* border:solid 1px #cf25c5; */
-   border-spacing: 8px 8px;
-  background-color: #f7f7f7;
-  border-collapse: separate
-   
-
+    border-spacing: 8px 8px;
+    background-color: #f7f7f7;
+    border-collapse: separate
 }
 
 
 .table-first-cell{
-  height: 50px;
-  background-color: #ffffff;
-  color: grey
+    height: 50px;
+    background-color: #ffffff;
+    color: grey
 }
 .tr{
-  color: grey    
+    color: grey    
 }
 
 
 .table-row{
-   color: black;
+    color: black;
 }
 
 
 td{
     background-color: #ffffff;
-     padding: 7px;
-     border-radius:5px;
-     font-size: .9em
-    
+    padding: 7px;
+    border-radius:5px;
+    font-size: .9em
 }
-
 
 #td{
     width: 300px
@@ -143,5 +127,5 @@ td{
 
 
 .view-class{
-   color: #cf25c5
+    color: #cf25c5
 }
