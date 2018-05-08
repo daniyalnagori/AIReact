@@ -7,6 +7,7 @@ import language from "../../assets/language.png"
 import "./index.css"
 // import {Grid, Row, Col, Table, thead, tr, th, tbody, td} from 'react-bootstrap'
 import CreatePredictors from '../CreatePredictors';
+import TrainingEvent from '../TrainingEvent';
 
 class SideNav extends Component {
     constructor() {
@@ -156,7 +157,8 @@ class SideNav extends Component {
                             </Col>
                         </Col>
                         <Col xs={12} sm={12} md={10} className="datasetSetup">
-                            <CreatePredictors />
+                            {/* <CreatePredictors /> */}
+                            <TrainingEvent/>
                         </Col>
                     </Row>
                 </Grid>
