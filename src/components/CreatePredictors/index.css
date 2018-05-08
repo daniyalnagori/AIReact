@@ -21,6 +21,18 @@
       float:left;
   }
   
+  .createPredictorModal .modalButton{
+    position: absolute;
+     right: 0;
+      bottom: 0; 
+    width: 100%;
+  }
+
+  .createPredictorModal .createPredictorForm{
+    height: 75vh; 
+    position: relative;
+}
+
   #donate label {
       float:left;
       width:393px;

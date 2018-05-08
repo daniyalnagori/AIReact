@@ -157,8 +157,8 @@ class SideNav extends Component {
                             </Col>
                         </Col>
                         <Col xs={12} sm={12} md={10} className="datasetSetup">
-                            {/* <CreatePredictors /> */}
-                            <TrainingEvent/>
+                            <CreatePredictors />
+                            {/* <TrainingEvent/> */}
                         </Col>
                     </Row>
                 </Grid>

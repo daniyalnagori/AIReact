@@ -39,7 +39,7 @@ class CreatePredictors extends Component {
                             <Stepper className="stepp" defaultColor="#fff" activeTitleColor="white" completeColor="#7100ac" defaultTitleColor="#a8a8a8" circleFontColor="#a8a8a8" defaultBorderColor="black" completeBorderColor="#cfcfcf" activeColor="#7100ac" barStyle="dashed" steps={[{ title: '' }, { title: '' }, { title: '' }]} activeStep={this.state.activeStep} />
                         </div>
                         <br />
-                        <div>
+                        <div className="createPredictorForm">
                             <Grid>
                                 {this.state.activeStep === 0 ?
                                     <div style={{ background: "white" }}>
@@ -82,17 +82,7 @@ class CreatePredictors extends Component {
                                     <div>
                                         <p className="createA">CREATE A DATASET TO USE</p>
                                         <p>Heloo</p>
-                                        <br />
-                                        <br />
-                                        <br />
-                                        <br />
-                                        <br />
-                                        <br />
-                                        <br />
-                                        <br />
-                                        <br />
-                                        <br />
-                                        <br />
+
                                     </div>
                                     : null}
 
@@ -141,32 +131,27 @@ class CreatePredictors extends Component {
                                     </div>
                                     : null}
 
-                                <br />
-                                <br />
-                                <br />
-                                <br />
-                                <br />
 
-                                <Row className="show-grid">
+                                <Row className="show-grid modalButton">
                                     <Col xs={6} md={6}>
                                         {this.state.activeStep === 1 ?
-                                            <p className="modelType2" onClick={() => this.back() }>MODEL TYPE</p> : null}
+                                            <p className="modelType2" onClick={() => this.back()}>MODEL TYPE</p> : null}
                                         {this.state.activeStep === 2 ?
-                                            <p className="modelType2" onClick={() => this.back() }>DATA SET</p> : null}
+                                            <p className="modelType2" onClick={() => this.back()}>DATA SET</p> : null}
                                     </Col>
-                                     <Col xs={4} md={4}>
-                                       <code></code>
+                                    <Col xs={4} md={4}>
+                                        <code></code>
                                     </Col>
                                     <Col xs={2} md={2} >
                                         <div>
                                             {this.state.activeStep === 0 ?
-                                                <p className="modelType" onClick={() => this.next() }>MODEL TYPE</p>
+                                                <p className="modelType" onClick={() => this.next()}>MODEL TYPE</p>
                                                 : null}
                                             {this.state.activeStep === 1 ?
-                                                <p className="modelType" onClick={() => this.next() }>DATA SET</p>
+                                                <p className="modelType" onClick={() => this.next()}>DATA SET</p>
                                                 : null}
                                             {this.state.activeStep === 2 ?
-                                                <p className="modelType" onClick={() => this.next() }>NEXT</p>
+                                                <p className="modelType" onClick={() => this.next()}>NEXT</p>
                                                 : null}
                                         </div>
                                     </Col>

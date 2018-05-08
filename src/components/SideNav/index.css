@@ -31,8 +31,8 @@
     z-index: 1;
     background-image: url("../../assets/sideNavBg.png");
     background-size: 204%;
-    background-position-y: 407%;
-    background-position-x: 49%;
+    background-position-y: 200%;
+    /* background-position-x: 49%; */
     background-repeat: no-repeat;
 }
 
