@@ -33,7 +33,7 @@ class CreatePredictors extends Component {
 
         return (
             <div>
-                <div className="sc3">
+                <div className="createPredictorModal">
                     <div className="container">
                         <div className="stepper">
                             <Stepper className="stepp" defaultColor="#fff" activeTitleColor="white" completeColor="#7100ac" defaultTitleColor="#a8a8a8" circleFontColor="#a8a8a8" defaultBorderColor="black" completeBorderColor="#cfcfcf" activeColor="#7100ac" barStyle="dashed" steps={[{ title: '' }, { title: '' }, { title: '' }]} activeStep={this.state.activeStep} />
