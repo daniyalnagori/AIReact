@@ -1,0 +1,147 @@
+.trainingEvent{
+    margin: 0%;
+    padding: 0%
+}
+.trainingEvent .Training-Event-Details{
+    color: #cf25c5;
+    font-size: 16px;
+    margin-top: -0.5%;
+}
+.trainingEvent .LYSINE4HOURLIVE{
+    color: #6c00a7;
+    margin-top: -5px
+}
+.first-col{
+  background-color: #f7f7f7;
+  height: 100vh;
+}
+.training-event-contant{
+    width: 95%;
+    margin: 0 auto;
+}
+.stapper-div{
+    background-color: #ffffff;
+    height: 200px;
+    margin-top: 2%;
+    border-radius: 4px
+}
+
+.Data-Set-Analysis-div{
+    margin-top: 2%            
+}
+.Data-Set-Analysis-img-span{
+    margin-right: 66px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.Analysis-img{
+  height: 35px;
+}
+
+.image-span{
+    background-color: #ffffff;
+    padding: 25px 18px;
+    border-radius: 54px;
+    margin-top: 200px
+}
+.img-container{
+    margin-top: 4.5%;
+    margin-left: 30px
+}
+.image-text{
+    color: #6c00a7;
+    font-weight: bold;
+}
+.Model-Analysis-div{
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+
+/* ****************ID*********************** */
+/* ****************ID*********************** */
+.trainingEvent #box-text{
+    margin-left: 20px
+}
+#CORRELATION-Text{
+   margin-left: -44px
+}
+
+
+#HISTOGRAM{
+    margin-left: -6px
+}
+
+#CORRELATION-MATRIX{
+    margin-left: 50px
+}
+
+#BOX{
+    margin-left: 45px   
+}
+/* ****************ID*********************** */
+/* ****************ID*********************** */
+
+
+
+
+
+
+
+
+.Model-Analysis-heading{
+    color: #cf25c5;
+    margin-left: 10px
+}
+
+
+
+.table{
+   /* border:solid 1px #cf25c5; */
+   border-spacing: 8px 8px;
+  background-color: #f7f7f7;
+  border-collapse: separate
+   
+
+}
+
+
+.table-first-cell{
+  height: 50px;
+  background-color: #ffffff;
+  color: grey
+}
+.tr{
+  color: grey    
+}
+
+
+.table-row{
+   color: black;
+}
+
+
+td{
+    background-color: #ffffff;
+     padding: 7px;
+     border-radius:5px;
+     font-size: .9em
+    
+}
+
+
+#td{
+    width: 300px
+
+} 
+
+
+.view-class{
+   color: #cf25c5
+}

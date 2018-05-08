@@ -8,7 +8,8 @@ import {
   App,
   Signup,
   Home,
-  CreatePredictors
+  CreatePredictors,
+  TrainingEvent
 } from './../components/index';
 
 import {
@@ -24,6 +25,7 @@ const ParentApp = () => (
     <Route exact path="/createPredictors" component={CreatePredictors} /> 
     <Route exact path="/login" component={Signin} /> 
     <Route exact path="/dashboard" component={Home} />
+    <Route exact path="/trainingEvent" component={TrainingEvent} />
 
   </div>
 );

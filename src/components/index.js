@@ -4,6 +4,7 @@ import Signup from './Signup/index';
 import Home from './Dashboard/index';
 import SideNav from './SideNav/index';
 import CreatePredictors from './CreatePredictors/index';
+import TrainingEvent from './TrainingEvent/index'
 
 export {
     App,
@@ -11,5 +12,6 @@ export {
     Signup,
     Home,
     SideNav,
-    CreatePredictors
+    CreatePredictors,
+    TrainingEvent
 };
