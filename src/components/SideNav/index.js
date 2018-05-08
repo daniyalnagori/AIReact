@@ -25,23 +25,12 @@ class SideNav extends Component {
                         <Col xs={12} sm={12} md={2} className="sideBarPanel">
                             <Col sm={4} md={4} className="sideBarIcons">
                                 <div className="sidebar-container">
-                                    <div  >
-                                        <div style={{}}>
+                                    <div>
+                                        <div>
                                             <img className="tutorial-logo" src={Logo} alt="" />
                                         </div>
                                         <div>
-                                            <p
-                                                style={{
-                                                    color: "#4e008b",
-                                                    fontWeight: "bold",
-                                                    letterSpacing: 2,
-                                                    marginTop: 5,
-                                                    marginLeft: 10,
-                                                    marginBottom: 40,
-                                                    fontSize: 10
-                                                }} >
-                                                CANVASS
-                                </p>
+                                            <p className="logoText">CANVASS</p>
                                         </div>
                                     </div>
                                     <Tab.Container id="left-tabs-example" defaultActiveKey="first" bsStyle="Tab-Container">
@@ -51,37 +40,25 @@ class SideNav extends Component {
                                                     <NavItem bsClss="NavItem" eventKey="first">
                                                         <div className="tab-Image"  >
                                                             <img className="tutorial-button" src={language} alt="" />
-                                                            <p className="icon-text" >
-                                                                PREDICTORS
-                                            </p>
+                                                            <p className="icon-text" >PREDICTORS</p>
                                                         </div>
                                                     </NavItem>
-
-                                                    {/* <br /> */}
                                                     <NavItem bsClss="NavItem" eventKey="Sec">
                                                         <div className="tab-Image" >
                                                             <img className="tutorial-button" alt="" src={language} />
-                                                            <p className="icon-text" >
-                                                                DATA SETS
-                                            </p>
+                                                            <p className="icon-text" >DATA SETS</p>
                                                         </div>
                                                     </NavItem>
                                                     <NavItem bsClss="NavItem" eventKey="thr">
                                                         <div className="tab-Image" >
                                                             <img className="tutorial-button" src={language} alt="" />
-                                                            <p className="icon-text" >
-                                                                TRAINING
-                                                                EVENTS
-                                            </p>
-
+                                                            <p className="icon-text" >TRAINING EVENTS</p>
                                                         </div>
                                                     </NavItem>
                                                     <NavItem bsClss="NavItem" eventKey="forth">
                                                         <div className="tab-Image" >
                                                             <img className="tutorial-button" src={language} alt="" />
-                                                            <p className="icon-text" >
-                                                                OPTIMIZERS
-                                            </p>
+                                                            <p className="icon-text" >OPTIMIZERS</p>
                                                         </div>
                                                     </NavItem>
                                                     <br />
@@ -90,9 +67,7 @@ class SideNav extends Component {
                                                     <NavItem bsClss="NavItem" eventKey="fifth">
                                                         <div className="tab-Image" >
                                                             <img className="tutorial-button" src={language} alt="" />
-                                                            <p className="icon-text" >
-                                                                DASHBOARDS
-                                            </p>
+                                                            <p className="icon-text" >DASHBOARDS </p>
                                                         </div>
                                                     </NavItem>
                                                 </Nav>
@@ -121,10 +96,7 @@ class SideNav extends Component {
                                     <div style={{ marginTop: 55 }} >
                                         <Row>
                                             <Col md={8} >
-                                                <p className="PREDICTORS-text" >
-                                                    MOST RECENT
-                                                PREDICTORS
-                                    </p>
+                                                <p className="PREDICTORS-text" >MOST RECENT PREDICTORS </p>
                                             </Col>
                                             <Col>
                                                 <div className="icon-div" >
@@ -146,7 +118,6 @@ class SideNav extends Component {
                                     </div>
                                     <div>
                                         <Row>
-
                                             <Col md={12} >
                                                 <Button bsClass="add-new-button" >ADD NEW<span className="add-button-span" >+</span></Button>
                                             </Col>
@@ -167,7 +138,6 @@ class SideNav extends Component {
         );
     }
 }
-
 
 export default SideNav;
 

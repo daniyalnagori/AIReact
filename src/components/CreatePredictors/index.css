@@ -5,175 +5,164 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-  .stepper{
-        display: table;
-        
-      width: 25%;
-      margin: 0px auto;
-  }
-  .createPredictorModal .container{
+.stepper{
+    display: table;    
+    width: 25%;
+    margin: 0px auto;
+}
+
+.createPredictorModal .container{
     background: white;
+}
 
-  }
-  #donate {
-      margin:4px;
-     
-      float:left;
-  }
+#donate {
+    margin:4px; 
+    float:left;
+}
   
-  .createPredictorModal .modalButton{
+.createPredictorModal .modalButton{
     position: absolute;
-     right: 0;
-      bottom: 0; 
+    right: 0;
+    bottom: 0; 
     width: 100%;
-  }
+}
 
-  .createPredictorModal .createPredictorForm{
+.createPredictorModal .createPredictorForm{
     height: 75vh; 
     position: relative;
 }
 
-  #donate label {
-      float:left;
-      width:393px;
-      margin:4px;
-      border-radius:4px;
-      border:1px solid #D0D0D0;
-      overflow:auto;
-      background: bottom;      
-  }
+#donate label {
+    float:left;
+    width:393px;
+    margin:4px;
+    border-radius:4px;
+    border:1px solid #D0D0D0;
+    overflow:auto;
+    background: bottom;      
+}
   
-  #donate label span {
-      text-align:center;
-      font-size: 18px;
-      display:block;
-      background: bottom;
-      
-  }
+#donate label span {
+    text-align:center;
+    font-size: 18px;
+    display:block;
+    background: bottom;    
+}
   
-  #donate label input {
-      visibility: hidden;
-      top:-20px;
-  }
+#donate label input {
+    visibility: hidden;
+    top:-20px;
+}
   
-  #donate input:checked + span {
-      background-color: black
-  }
+#donate input:checked + span {
+    background-color: black
+}
   
-  
-  
-  #donate .blue {
-      background-color:#00BFFF;
-      color:#333;
-  }
+#donate .blue {
+    background-color:#00BFFF;
+    color:#333;
+}
   
   
-  #donate .green {
-      background-color:#A3D900;
-      color:#333;
-  }
-  .input{
-        width: 100%;
-      height: 38px;
-      border: none;
-      border-radius: 6px;
-      background: white;
-      box-shadow: 0px 0px 18px #f7f7f7;
-  }
+#donate .green {
+    background-color:#A3D900;
+    color:#333;
+}
+  
+.input{
+    width: 100%;
+    height: 38px;
+    border: none;
+    border-radius: 6px;
+    background: white;
+    box-shadow: 0px 0px 18px #f7f7f7;
+}
+
   .createA{
-      text-align: center;
-      background: white;
-      letter-spacing: 1px;
-      color: #62009d;
-      font-weight: bold;
-      font-family: sans-serif;
-      font-size: 16px;
-  }
-  .predictor{
-          text-align: center;
-      font-size: 19px;
-      letter-spacing: 1px;
-      margin-top: -2%;
-      background: white;
-      color: #62009d;
-      
-  }
+    text-align: center;
+    background: white;
+    letter-spacing: 1px;
+    color: #62009d;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+.predictor{
+    text-align: center;
+    font-size: 19px;
+    letter-spacing: 1px;
+    margin-top: -2%;
+    background: white;
+    color: #62009d;  
+}
   .modelType{
-          background: #62009d;
-      color: white;
-      height: 32px;
-      border-radius: 16px;
-      text-align: center;
-      font-size: 13px;
-      /*font-weight: bold;*/
-      padding-top: 8px;
-      cursor: pointer;
+    background: #62009d;
+    color: white;
+    height: 32px;
+    border-radius: 16px;
+    text-align: center;
+    font-size: 13px;
+    padding-top: 8px;
+    cursor: pointer;
       
-  }
-  .modelType2{
-          background: white;
-      color: black;
-      height: 32px;
-      border-radius: 16px;
-      text-align: center;
-     border: 1px solid black;
-      padding-top: 5px;
-      width: 28%;
-      cursor: pointer;
-  }
-  .createPredictorRow{
-   
-      padding-top: 8%;
+}
 
-      padding-bottom: 1%;
-      padding-right: 1%;
-          margin-right: 3.5%;
-  }
+.modelType2{
+    background: white;
+    color: black;
+    height: 32px;
+    border-radius: 16px;
+    text-align: center;
+    border: 1px solid black;
+    padding-top: 5px;
+    width: 28%;
+    cursor: pointer;
+}
+.createPredictorRow{
+    padding-top: 8%;
+    padding-bottom: 1%;
+    padding-right: 1%;
+    margin-right: 3.5%;
+}
 
-  .groupBtn3{
-  border-radius: 5px;
-  background: white;
-  word-break: break-all;
-  width: 125%;
-  height: 54px;
+.groupBtn3{
+    border-radius: 5px;
+    background: white;
+    word-break: break-all;
+    width: 125%;
+    height: 54px;
 }
 
 .Main3{
-   padding-top: 8%;
-  background: white;
+    padding-top: 8%;
+    background: white;
 }
-
 
 .spann3{
     margin-left: 5%;
-  color: #c4bbb2;
-  letter-spacing: 1px;
-  font-size: 16px;
-  background: white;
-  
+    color: #c4bbb2;
+    letter-spacing: 1px;
+    font-size: 16px;
+    background: white;  
 }
- .ques3{
-       position: absolute;
+.ques3{
+    position: absolute;
     top: 29%;
     right: -4%;
-    color: #c4bbb2;
-        
-    }
+    color: #c4bbb2;      
+}
 
-  .src .bottomPredic{
-        padding:0px
-    }
+.src .bottomPredic{
+    padding:0px
+}
 
-    .createPredictorModal .cen{
-        display: flex;
-        justify-content: center;
-    }
+.createPredictorModal .cen{
+    display: flex;
+    justify-content: center;
+}
 
-    .thereAreNo{
-            /*text-align: center;
-    margin-top: 3%;*/
+.thereAreNo{
     display: table;
     margin: 3% auto;
-    /*width: 50%;*/
     color: #c4bbb2;
-    }
+}
