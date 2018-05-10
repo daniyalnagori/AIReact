@@ -5,6 +5,7 @@ import Home from './Dashboard/index';
 import SideNav from './SideNav/index';
 import CreatePredictors from './CreatePredictors/index';
 import TrainingEvent from './TrainingEvent/index'
+import Predictor_Configuration from './Predictor_Configuration/index'
 
 export {
     App,
@@ -13,5 +14,6 @@ export {
     Home,
     SideNav,
     CreatePredictors,
-    TrainingEvent
+    TrainingEvent,
+    Predictor_Configuration
 };

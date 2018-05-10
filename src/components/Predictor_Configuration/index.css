@@ -1,0 +1,169 @@
+Predictor_Configuration .col{
+
+   background: white;
+   
+}
+
+.Predictor_Configuration .Configuration{
+
+   color: #c441bc;
+   background: #f7f7f7;
+
+}
+.Predictor_Configuration .inputPara{
+
+   background:white;
+   width: 30%;
+   margin: 0px auto;
+   color: #878787;
+   letter-spacing:1px;
+   font-size: 12px;
+}
+
+.Predictor_Configuration .input_Config{
+
+   margin-bottom: 2%;
+   width: 55%;
+   height: 32px;
+   border: none;
+   border-radius: 6px;
+   background: white;
+   color: black;
+   box-shadow: 0px 0px 10px gray;
+    
+}
+.Predictor_Configuration .input_Config2{
+
+   width: 100%;
+   height: 34px;
+   border: none;
+   border-radius: 6px;
+   background: white;
+   box-shadow: 0px 0px 18px #f7f7f7;
+   border: 1px solid #f7d4d8
+    
+}
+.Predictor_Configuration .word{
+
+   margin-left: -14%;
+   margin-top: 3%;
+   position: absolute;
+   background: white;
+
+}
+.Predictor_Configuration .saveBtn{
+
+   background: white;
+   color: #878787;
+   height: 32px;
+   border-radius: 16px;
+   text-align: center;
+   border: 1px solid #878787;
+   padding-top: 5px;
+   width: 29%;
+   margin-top: 4%;
+   float: right;
+   font-size: 13px;
+   letter-spacing: 1px;
+
+}
+.Predictor_Configuration .cancelBtn{
+
+   background: white;
+   color: #c441bc;
+   height: 32px;
+   border-radius: 16px;
+   text-align: center;
+   border: 1px solid #878787;
+   padding-top: 5px;
+   width: 29%;
+   margin-top: 4%;
+   float: right;
+   font-size: 13px;
+   letter-spacing: 1px;
+   margin-right: 4%;
+
+}
+.Predictor_Configuration .train-model{
+
+   background: #7800b2;
+   color: white;
+   outline: 0px;
+   border-radius: 16px;
+   text-align: center;
+   width: 100%;
+   margin-left: 75%;
+   padding-top: 5px;
+
+}
+
+.Predictor_Configuration .typeValue{
+
+   color: #878787;
+   height: 35px;
+   padding-top: 6px;
+   font-size: 15px;
+   border-radius: 6px;
+   padding-right: -20px;
+   background: white;
+   padding-left: 9px;
+   margin-top: 3%;
+   box-shadow: 0px 0px 10px grey;
+
+}
+.Predictor_Configuration .start{
+
+    color: black;
+    height: 25px;
+    padding-top: 3px;
+    border-radius: 6px;
+    padding-right: -20px;
+    background: white;
+    padding-left: 9px;
+    margin-top: -7%;
+    box-shadow: 0px 0px 10px grey;
+
+}
+
+.Predictor_Configuration .dropBtn{
+
+    background: white;
+    padding-right: 95%;
+    height: 7vh;
+
+}
+.Predictor_Configuration .Main{
+
+    background: white;
+    height: 42vh;
+    padding: 12px;
+    border-radius: 6px;
+
+}
+.Predictor_Configuration .dataFilter{
+
+    background: white;
+    height: 25vh;
+    padding: 14px;
+    border-radius: 10px;
+
+}
+
+.Predictor_Configuration .footerP{
+
+    color: black;
+    height: 25px;
+    padding-top: 3px;
+    border-radius: 6px;
+    padding-right: -20px;
+    background: white;
+    padding-left: 9px;
+    margin-top: -17%;
+    box-shadow: 0px 0px 10px grey;
+
+}
+.Predictor_Configuration .mainCode{
+
+    background: white;
+
+}

@@ -9,7 +9,8 @@ import {
   Signup,
   Home,
   CreatePredictors,
-  TrainingEvent
+  TrainingEvent,
+  Predictor_Configuration
 } from './../components/index';
 
 import {
@@ -26,6 +27,8 @@ const ParentApp = () => (
     <Route exact path="/login" component={Signin} /> 
     <Route exact path="/dashboard" component={Home} />
     <Route exact path="/trainingEvent" component={TrainingEvent} />
+    <Route exact path="/Predictor_Configuration" component={Predictor_Configuration} />
+    
 
   </div>
 );

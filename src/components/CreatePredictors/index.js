@@ -168,8 +168,8 @@ class CreatePredictors extends Component {
               <code>
                 <div className='Main3'>
                   <ButtonToolbar>
-                    <DropdownButton className='spann5'
-                      title='PREDICTION FIELD'
+                    <DropdownButton className='dropBtn1'
+                      title='PREDICTOR'
                       bsSize="small"
                     >
                       <MenuItem eventKey="1">Action</MenuItem>
@@ -188,8 +188,8 @@ class CreatePredictors extends Component {
               <code>
                 <div className='Main3'>
                   <ButtonToolbar>
-                    <DropdownButton className='spann5'
-                      title='PREDICTION FIELD'
+                    <DropdownButton className='dropBtn2'
+                      title='DATA BASE NAME'
                       bsSize="small"
                     >
                       <MenuItem eventKey="1">Action</MenuItem>
@@ -208,7 +208,7 @@ class CreatePredictors extends Component {
               <code>
                 <div className='Main3'>
                   <ButtonToolbar>
-                    <DropdownButton className='spann5'
+                    <DropdownButton className='dropBtn3'
                       title='PREDICTION FIELD'
                       bsSize="small"
                     >
@@ -228,8 +228,8 @@ class CreatePredictors extends Component {
               <code>
                 <div className='Main3'>
                   <ButtonToolbar>
-                    <DropdownButton className='spann5'
-                      title='PREDICTION FIELD'
+                    <DropdownButton className='dropBtn4'
+                      title='DEPLOYMENT DATE'
                       bsSize="small"
                     >
                       <MenuItem eventKey="1">Action</MenuItem>
@@ -248,8 +248,8 @@ class CreatePredictors extends Component {
               <code>
                 <div className='Main3'>
                   <ButtonToolbar>
-                    <DropdownButton className='spann5'
-                      title='PREDICTION FIELD'
+                    <DropdownButton className='dropBtn5'
+                      title='MODEL TYPE'
                       bsSize="small"
                     >
                       <MenuItem eventKey="1">Action</MenuItem>
@@ -268,8 +268,8 @@ class CreatePredictors extends Component {
               <code>
                 <div className='Main3'>
                   <ButtonToolbar>
-                    <DropdownButton className='spann5'
-                      title='PREDICTION FIELD'
+                    <DropdownButton className='dropBtn6'
+                      title='TRAIN'
                       bsSize="small"
                     >
                       <MenuItem eventKey="1">Action</MenuItem>

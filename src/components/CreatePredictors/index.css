@@ -32,10 +32,10 @@
     position: relative;
 }
 
-.createPredictorModal .Main3{
+/*.createPredictorModal .Main3{
     padding-top: 8%;
     background: white;
-}
+}*/
 
 
 #donate label {
@@ -129,6 +129,10 @@
     padding-bottom: 1%;
     padding-right: 1%;
     margin-right: 3.5%;
+        width: 100%;
+     /*text-align: center; */
+    display: table;
+    margin: 0 auto;
 }
 
 .groupBtn3{
@@ -156,10 +160,45 @@
 
 
 
-.spann5{
+.dropBtn1{
     color: #c4bbb2;
     background: white;
     border: none;
-    width: 117%;
+    width: 165%;
+    height: 9vh;
+}
+.dropBtn2{
+    color: #c4bbb2;
+    background: white;
+    border: none;
+    /*width: 122%;*/
+    height: 9vh;
+}
+.dropBtn3{
+    color: #c4bbb2;
+    background: white;
+    border: none;
+    /*width: 112%;*/
+    height: 9vh;
+}
+.dropBtn4{
+    color: #c4bbb2;
+    background: white;
+    border: none;
+    /*width: 114.5%;*/
+    height: 9vh;
+}
+.dropBtn5{
+    color: #c4bbb2;
+    background: white;
+    border: none;
+    /*width: 153%;*/
+    height: 9vh;
+}
+.dropBtn6{
+    color: #c4bbb2;
+    background: white;
+    border: none;
+    /*width: 231%;*/
     height: 9vh;
 }
