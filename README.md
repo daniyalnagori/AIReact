@@ -1,4 +1,9 @@
-# React + Redux Boilerplate
+# React + Redux
+
+# Project
+
+  Canvass Analytics is disrupting the way industrial operational data is being used to make critical business decisions. The     Canvass AI Platform helps transform plant operations to become more analytical-minded, giving them predictive insights that     empower them to make decisions based on operational data rather than intuitions or gut-feeling. 
+
 
 ### INSTRUCTIONS 
  - Install YARN globally through <code> npm install -g yarn</code>
